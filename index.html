@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unforgettable Escape to Mira de Aire</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom, #e6f0f3, #fdfbf5);
+        color: #2c2c2c;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 42px;
+        letter-spacing: 1px;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 20px;
+      }
+
+      .section-grid {
+        align-items: center;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px 0;
+      }
+
+      .section-grid .text {
+        line-height: 1.6;
+        padding: 10px;
+      }
+
+      .section-grid .image img {
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        display: block;
+        height: 300px;
+        margin: 1mm auto 0;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      button {
+        background-color: #cce3dc;
+        border: 1px solid #cce3dc;
+        border-radius: 10px;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        margin: 40px auto 20px;
+        padding: 10px 20px;
+        transition: all 200ms ease;
+      }
+
+      button:hover {
+        background-color: #b1d0c7;
+        color: #ffffff;
+      }
+
+      a {
+        color: #6c9476;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #4e6f58;
+        text-decoration: underline;
+      }
+
+      footer {
+        font-size: 15px;
+        margin: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Unforgettable Escape to Mira de Aire</h1>
+
+      <div class="section-grid">
+        <div class="text">
+          <h2>A Peaceful Escape into Nature's Heart</h2>
+          <p>
+            Earlier this year, I enjoyed a short yet unforgettable escape to
+            Mira de Aire, a charming village nestled in the heart of Portugal.
+            Surrounded by rolling hills and renowned for its awe-inspiring
+            caves, it was the ideal place to slow down, breathe deeply, and
+            reconnect with nature. From tranquil walks in the Serra to exploring
+            underground wonders, each moment felt like a breath of fresh air for
+            the soul.
+          </p>
+        </div>
+        <div class="image">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/887/original/IMG_3882.jpeg?1746445416"
+            alt="Mira"
+          />
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="image">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/890/original/mira_de_aire.jpg?1746448567"
+            alt="walk"
+          />
+        </div>
+        <div class="text">
+          <h2>Walking through Nature's Silence</h2>
+          <p>
+            We began our trip with a gentle hike through the Serra de Aire
+            hills. The crisp air, soft breeze, and birdsong turned each step
+            into a calming experience. With no noise or distractions, we could
+            fully embrace the peaceful rhythm of nature — just walking,
+            breathing, and being present in the moment.
+          </p>
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="text">
+          <h2>A Simple Picnic with Meaning</h2>
+          <p>
+            After our walk, we found a quiet spot beneath the trees to enjoy a
+            humble picnic. It wasn’t elaborate — just sandwiches, fruit, and
+            warm drinks — but it felt perfect. Sitting on a blanket, surrounded
+            by stillness and good company, reminded us that true joy often lies
+            in life’s simplest pleasures.
+          </p>
+        </div>
+        <div class="image">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/888/original/IMG_3883.jpeg?1746445427"
+            alt="picnic"
+          />
+        </div>
+      </div>
+
+      <div class="section-grid">
+        <div class="image">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/889/original/IMG_3881.jpeg?1746445437"
+            alt="caves"
+          />
+        </div>
+        <div class="text">
+          <h2>The Magic of Mira de Aire Caves</h2>
+          <p>
+            The highlight of the day was visiting the famous Mira de Aire caves.
+            As we descended into the earth, we were captivated by the glowing
+            rock formations, cool air, and hidden waterfalls. It felt like
+            discovering a secret world — mysterious, majestic, and completely
+            unforgettable.
+          </p>
+        </div>
+      </div>
+
+      <button>Learn a Fun Fact</button>
+
+      <p style="text-align: center; padding: 0 40px">
+        If you’re curious to explore more about this magical place, you can
+        learn all about the Mira de Aire Caves on their official website:
+        <a href="https://www.grutasmiradaire.com" target="_blank">visit here</a
+        >.
+      </p>
+    </div>
+    <footer>
+      <p>Coded by Tânia Figueiredo</p>
+    </footer>
+    <script>
+      function showFunFact() {
+        let answer = prompt(
+          "Did you know Mira de Aire caves are the largest in Portugal? 🌍"
+        );
+
+        if (answer && answer.toLowerCase() === "yes") {
+          alert("Impressive! You're a cave expert! 🧠");
+        } else {
+          alert(
+            "Now you know! They're over 11km long, with stunning rock formations. 🪨"
+          );
+        }
+      }
+
+      let funFactButton = document.querySelector("button");
+      funFactButton.addEventListener("click", showFunFact);
+    </script>
+  </body>
+</html>
